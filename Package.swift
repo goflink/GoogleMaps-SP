@@ -41,28 +41,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/6.1.1-universal/GoogleMaps.xcframework.zip",
-            checksum: "490f79815a41b45deaf6ca3fd744f487d9dfe0182f0d58fe9c60cdcbe706c6d4"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMaps.xcframework.zip",
+            checksum: "ee46b827b3bdf15627470523f7661c6d1ea4c3fa969abdbff345d127560b1f0a"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/6.1.1-universal/GoogleMapsBase.xcframework.zip",
-            checksum: "68c31db3317caa0dd531aeb9c2b31fd8b92753158400a37189b4d31af007e842"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsBase.xcframework.zip",
+            checksum: "63e6a17f8e7a3caeaa9fe5d8dc9de5e6678cec0f686a60d99de8ff217c50e417"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/6.1.1-universal/GoogleMapsCore.xcframework.zip",
-            checksum: "3bdc93bfba83967c28d7c7885ec1a6de9bfe5a2178e0785e378d664d440f1d8b"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsCore.xcframework.zip",
+            checksum: "0b0b13a000b0f62be5e8832363df6e08f7055c2edf2e25d5a0cf006f1fcaa8e1"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/6.1.1-universal/GoogleMapsM4B.xcframework.zip",
-            checksum: "6e1253f8ad0524fafe7acf3a4de09207d1b1d656fb473feb56c9520ba9fec9e1"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsM4B.xcframework.zip",
+            checksum: "3c5f29cb0238f92eb2201abc38b015bfe7317ace8e23aa5d3c09f52a0657800a"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/6.1.1-universal/GooglePlaces.xcframework.zip",
-            checksum: "d764794a07fbdc387fb59d7bb0aee0d44c2b8d7bc962a1e13d7f36c7efd435d9"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GooglePlaces.xcframework.zip",
+            checksum: "ba970db85f9173beb5942981725989826fe2ec0d5ac39f0f068f4191e420cbed"
         )
     ]
 )
