@@ -3,7 +3,18 @@
 BUILD_DIRECTORY="Build"
 CARTHAGE_XCFRAMEWORK_DIRECTORY="Carthage/Build/"
 
-function archive_project() {
+function convert_frameworks_arm64_to_iphonesimulator() {
+  project_name=$1
+  framework_name=$2
+
+  xcrun vtool -arch arm64 \
+    -set-build-version 7 11.0 13.7 \
+    -replace \
+    -output "../Carthage/Build/iOS/$framework_name.framework/$framework_name" \
+    "../Carthage/Build/iOS/$framework_name.framework/$framework_name"
+}
+
+function archive_project_iphoneos() {
   project_name=$1
   framework_name=$2
 
@@ -16,6 +27,11 @@ function archive_project() {
    -archivePath "$framework_name.framework-iphoneos.xcarchive"\
    SKIP_INSTALL=NO\
    BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+}
+
+function archive_project_iphonesimulator() {
+  project_name=$1
+  framework_name=$2
 
   # Archive iOS Simulator project.
   xcodebuild archive\
@@ -31,9 +47,6 @@ function archive_project() {
 function create_xcframework() {
   project_name=$1
   framework_name=$2
-
-  # Archive Xcode project.
-  archive_project $project_name $framework_name
 
   # Create XCFramework from the archived project.
   xcodebuild -create-xcframework\
@@ -59,7 +72,7 @@ function prepare() {
 }
 
 function cleanup() {
-  rm -r *.xcframework
+  # rm -r *.xcframework
   rm -r *.xcarchive
 }
 
