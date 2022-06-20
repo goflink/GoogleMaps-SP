@@ -41,28 +41,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMaps.xcframework.zip",
-            checksum: "31da2e64335f4eaf8fe62237604753a252e4009a2b944f62ca58345190c513ee"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMaps.xcframework.zip",
+            checksum: "ee46b827b3bdf15627470523f7661c6d1ea4c3fa969abdbff345d127560b1f0a"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsBase.xcframework.zip",
-            checksum: "1edd2007b14954c04e9adba68eb9ca668040cad337358c918abbba8bbf507c8b"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsBase.xcframework.zip",
+            checksum: "63e6a17f8e7a3caeaa9fe5d8dc9de5e6678cec0f686a60d99de8ff217c50e417"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsCore.xcframework.zip",
-            checksum: "714b878ab65b6ac4b84a74c6bda6a424d3b4d5633167302ca9e38fed58290e42"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsCore.xcframework.zip",
+            checksum: "0b0b13a000b0f62be5e8832363df6e08f7055c2edf2e25d5a0cf006f1fcaa8e1"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsM4B.xcframework.zip",
-            checksum: "ce64b51af3c965fd8679fa6be89ecd36f221cb26d183b7110d544b504060c321"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GoogleMapsM4B.xcframework.zip",
+            checksum: "3c5f29cb0238f92eb2201abc38b015bfe7317ace8e23aa5d3c09f52a0657800a"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GooglePlaces.xcframework.zip",
-            checksum: "e188774efd12f8fd9253aa1ef22e08687d2c5af2dda8ec147c17a84753bb9128"
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1/GooglePlaces.xcframework.zip",
+            checksum: "ba970db85f9173beb5942981725989826fe2ec0d5ac39f0f068f4191e420cbed"
         )
     ]
 )
