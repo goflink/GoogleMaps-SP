@@ -46,22 +46,22 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fixgleMapsBase.xcframework.zip",
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fix/GoogleMapsBase.xcframework.zip",
             checksum: "8fa6bc6309c17994d769a7d9b6048a879dd9b7c28dc0b5be53418372a5f95061"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fixgleMapsCore.xcframework.zip",
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fix/GoogleMapsCore.xcframework.zip",
             checksum: "5be38ead3f821f5bc29ad6b69a115dddaa96ab1df6f04bfd42a29f2a9613894a"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fixgleMapsM4B.xcframework.zip",
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fix/GoogleMapsM4B.xcframework.zip",
             checksum: "5ac567417b7094f7aed089806555195582fa5794cc24e3b6322ba19b559f707f"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fixglePlaces.xcframework.zip",
+            url: "https://github.com/goflink/GoogleMaps-SP/releases/download/6.2.1-fix/GooglePlaces.xcframework.zip",
             checksum: "9543b7a0cf80e83adcf68012954fb8f03582b100d1446c76ffc82f9ab2de97a3"
         )
     ]
