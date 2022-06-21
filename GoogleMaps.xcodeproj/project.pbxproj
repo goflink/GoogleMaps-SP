@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F17EEE42861DBCA00A997B3 /* GMSCompatabilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F17EEE02861DBCA00A997B3 /* GMSCompatabilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F17EEE52861DBCA00A997B3 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F17EEE12861DBCA00A997B3 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F17EEE62861DBCA00A997B3 /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F17EEE22861DBCA00A997B3 /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F17EEE72861DBCA00A997B3 /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F17EEE32861DBCA00A997B3 /* GMSCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC3E266285BAF15009BD200 /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC3E237285BAF15009BD200 /* GMSPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC3E267285BAF15009BD200 /* GMSAccessibilityLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC3E238285BAF15009BD200 /* GMSAccessibilityLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC3E268285BAF15009BD200 /* GMSIndoorBuilding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC3E239285BAF15009BD200 /* GMSIndoorBuilding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -143,6 +147,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F17EEE02861DBCA00A997B3 /* GMSCompatabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCompatabilityMacros.h; sourceTree = "<group>"; };
+		2F17EEE12861DBCA00A997B3 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
+		2F17EEE22861DBCA00A997B3 /* GoogleMapsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsBase.h; sourceTree = "<group>"; };
+		2F17EEE32861DBCA00A997B3 /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCoordinateBounds.h; sourceTree = "<group>"; };
 		2FC3E237285BAF15009BD200 /* GMSPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaView.h; sourceTree = "<group>"; };
 		2FC3E238285BAF15009BD200 /* GMSAccessibilityLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAccessibilityLabels.h; sourceTree = "<group>"; };
 		2FC3E239285BAF15009BD200 /* GMSIndoorBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorBuilding.h; sourceTree = "<group>"; };
@@ -395,6 +403,10 @@
 		2FC3E295285BAF82009BD200 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				2F17EEE02861DBCA00A997B3 /* GMSCompatabilityMacros.h */,
+				2F17EEE32861DBCA00A997B3 /* GMSCoordinateBounds.h */,
+				2F17EEE12861DBCA00A997B3 /* GMSDeprecationMacros.h */,
+				2F17EEE22861DBCA00A997B3 /* GoogleMapsBase.h */,
 			);
 			name = Headers;
 			path = "Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Headers";
@@ -670,6 +682,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F17EEE52861DBCA00A997B3 /* GMSDeprecationMacros.h in Headers */,
+				2F17EEE72861DBCA00A997B3 /* GMSCoordinateBounds.h in Headers */,
+				2F17EEE62861DBCA00A997B3 /* GoogleMapsBase.h in Headers */,
+				2F17EEE42861DBCA00A997B3 /* GMSCompatabilityMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
